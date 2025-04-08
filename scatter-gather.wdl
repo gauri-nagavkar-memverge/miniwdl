@@ -1,9 +1,7 @@
 version 1.0
 
 ## Workflow to calculate MD5 checksums for files and aggregate them
-## Author: Gauri
 ## Description: This workflow computes MD5 checksums for each input file in parallel and then aggregates them into a single checksum file.
-## License: BSD-3
 
 workflow ga4ghMd5 {
   input {
